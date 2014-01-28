@@ -26,14 +26,14 @@ references at his/her fingertips for free.
 
 - Username and Password: Your username is your Loyola email
   address. The email address must be entered in the form of
-  xyz@luc.edu Your initial password was sent to your Loyola email
-  account when your account was generated.
+  xyz@luc.edu 
 
-- Go to http://bit.ly/msdnaa-loyola-chicago-cs.  Click Sign In button on
-  the top right.  Click the button in forgotten your password? section
-  for a reminder.  Check your Loyola email to get your password.
+- Go to this `link <http://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=afe1b6ef-7d9b-e011-969d-0030487d8897&vsro=8/>`_.
+  Click Sign In button on the top right. Click the button in "forgot your username or password?" section
+  for a reminder. Check your Loyola email to get your password.
 
-.. todo:: Copy some other information from Miao's pages.
+.. todo:: 
+   Copy some other information from Miao's pages.
 
 Please note that the MSDNAA *excludes* Microsoft Office. We encourage
 students who need Microsoft Office to purchase the Home and Student
