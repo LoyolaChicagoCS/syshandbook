@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "Deploy event at $(date)"
-(git pull | head -1 | grep -v ^Already) && ./deploy-syshandbook.sh
+(git pull | head -1 | grep -v ^Already) \
+	&& echo "Deploy event at $(date)" \
+	&& ./deploy-syshandbook.sh
