@@ -2,8 +2,12 @@ language: python
 python:
   - "2.7"
   - "3.4"
+
+# This build depends on Sphinx (a Python tool), which depends on an essential TeXLive setup.
 install:
-  - sh scripts/install-texlive.sh
-  - sh scripts/install-pip.sh
+  - pip install sphinx
+  - pip install sphinx_bootstrap_theme
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq help2man python-sphinx texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texinfo
 script:
-  - sh fullmake.sh
+  - sh build-handbook.sh
