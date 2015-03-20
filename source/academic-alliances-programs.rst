@@ -1,5 +1,3 @@
-
-
 .. index::
    single: academic alliances
    

@@ -1,18 +1,13 @@
-
-`Department Services <../index.html>`_ >
-
 Virtualization
 ~~~~~~~~~~~~~~
 
 We are now able to host Xen and Windows Hyper-V virtual servers in the
-department. We can host these with a dedicated public IP address
-(justification is required to obtain one) or private IP addresses which
-would be visible when you connect via the Loyola VPN.
-Given our present resource limitations, we can only provide virtual
-machines on a limited basis, primarily for faculty and student
-research/outreach projects. Please send your requests to the vm alias
-(see `Getting Help <../../how-to/getting-help/index.html>`_) and make
-sure you include the following information:
+department. We can host these with a dedicated public IP address (justification
+is required to obtain one) or private IP addresses which would be visible when
+you connect via the Loyola VPN.  Given our present resource limitations, we can
+only provide virtual machines on a limited basis, primarily for faculty and
+student research/outreach projects. Please send your requests to the vm alias
+(see :doc:`getting-help`) and make sure you include the following information:
 
 -  **name**: your full name
 -  **university e-mail address**: we will not give virtual machines to

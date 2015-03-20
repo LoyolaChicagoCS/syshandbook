@@ -1,4 +1,3 @@
-
 .. index::
    pair: contacts; emergency
    single: campus safety
