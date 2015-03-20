@@ -41,7 +41,3 @@ student research/outreach projects. Please send your requests to the vm alias
    available OS technology without activation requirements.
 -  **number of CPUs**: we are only able to support 1 for most requests
    at this time.
-
-Updated on Apr 11, 2010 by `George
-Thiruvathukal <mailto:gkt@cs.luc.edu>`_ (Version 4)
-

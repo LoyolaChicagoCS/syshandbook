@@ -53,10 +53,10 @@ center.
 GPGPU Server
 ------------
 
-Our new GPGPU-Server was set up at our ETL. It is SuperServer
-7046GT-TRF-TC4 with 2 x Intel Xeon Quad-Core (16 logical processors),
-96GB RAM, 4 x NVIDIA® Tesla C2075 GPUs. `Getting Started
-Guide <../../how-to/gpgpu-server/index.html>`_` </>`_
+Our new GPGPU Server was set up at our ETL. It is SuperServer 7046GT-TRF-TC4
+with 2 x Intel Xeon Quad-Core (16 logical processors), 96GB RAM, 4 x NVIDIA®
+Tesla C2075 GPUs. Please read our :doc:`gpgpu-server` guide on how to get
+started.
 
 .. index::
    single: Emerging Technologies Laboratory
@@ -64,12 +64,13 @@ Guide <../../how-to/gpgpu-server/index.html>`_` </>`_
 Emerging Technologies Laboratory
 --------------------------------
 
-The `ETL <http://www.etl.luc.edu>`_ is a growing presence for
-experimental computer science and engineering projects. This laboratory
-supports many experimental computing needs and is a place where students
-can explore ideas not covered directly in any particular class.
-Virtualization, embedded systems, green computing, and mobile
-development take place here.
+.. _ETL: http://www.etl.luc.edu
+
+The `ETL`_ is a growing presence for experimental computer science and
+engineering projects. This laboratory supports many experimental computing
+needs and is a place where students can explore ideas not covered directly in
+any particular class.  Virtualization, embedded systems, green computing, and
+mobile development take place here.
 
 .. index::
    single: wireless
@@ -79,5 +80,3 @@ Wireless
 
 The entire department (faculty offices, computer labs, emerging
 technologies lab, and halls) are covered by 802.11g Wireless LAN.
-
-

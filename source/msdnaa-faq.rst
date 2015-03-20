@@ -1,17 +1,17 @@
 FAQ
 ===
 
-Computer Science Department is a member of the MSDN Academic
-Alliance.With this membership, any student who takes a computer
-science course will have an account to download the latest development
-tools, operating systems, server software, documentation, and
-technical references at his/her fingertips for free.
+Computer Science Department is a member of the MSDN Academic Alliance.With this
+membership, any student who takes a computer science course will have an
+account to download the latest development tools, operating systems, server
+software, documentation, and technical references at his/her fingertips for
+free.
 
 What is the user name for my account ?
 
-Your username is your Loyola email address. The email address must be
-entered in the form of xyz@luc.edu Your initial password was sent to
-your Loyola email account when your account was generated.
+Your username is your Loyola email address. The email address must be entered
+in the form of xyz@luc.edu Your initial password was sent to your Loyola email
+account when your account was generated.
 
 What should I do if I never knew, or have forgotten my password?
 

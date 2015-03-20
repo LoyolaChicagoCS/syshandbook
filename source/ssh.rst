@@ -1,22 +1,31 @@
 SSH
 ===
 
-Not all computer systems in the department are intended for general use, and some are restricted to faculty and staff usage. (And many are reserved for testing purposes.) The systems available for general use include random.cs.luc.edu and infinity.cs.luc.edu.
+Not all computer systems in the department are intended for general use, and
+some are restricted to faculty and staff usage. (And many are reserved for
+testing purposes.) The systems available for general use include
+random.cs.luc.edu and infinity.cs.luc.edu.
  
-By default, SSH traffic (on port 22) is blocked outside of Loyola. You will need to use the VPN or the public key authentication to connect to our servers on an alternate port (22222).
+By default, SSH traffic (on port 22) is blocked outside of Loyola. You will
+need to use the VPN or the public key authentication to connect to our servers
+on an alternate port (22222).
 
-For most of our user community, we think the VPN is a reasonable solution. If you don't have access, please let us know. We can get VPN access for alumni and collaborators.
+For most of our user community, we think the VPN is a reasonable solution. If
+you don't have access, please let us know. We can get VPN access for alumni and
+collaborators.
 
 Configuring SSH in General
 --------------------------
 
-To use public key authentication (PKA), you need to make a configuration after you install a ssh client, which includes three steps: 
+To use public key authentication (PKA), you need to make a configuration after
+you install a ssh client, which includes three steps: 
 
 #. generate a private and public key pair (Key Type: RSA  Key Length: 1024);
 #. store private key in your local computer;
 #. save public key on the remote Linux server.
  
-In the remaining sections, we discuss different configurations that are commonly needed by faculty, staff, and students within our department.
+In the remaining sections, we discuss different configurations that are
+commonly needed by faculty, staff, and students within our department.
 
 Bitvise Tunnelier
 -----------------

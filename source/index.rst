@@ -17,7 +17,6 @@ See :doc:`download` for information about other formats.
    department-services
    how-to
    its-services
-   migrating
    download
 
 Index and search
@@ -25,8 +24,3 @@ Index and search
 
 * :ref:`genindex`
 * :ref:`search`
-
-
-
-
-

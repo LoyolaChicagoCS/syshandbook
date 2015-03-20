@@ -4,12 +4,22 @@ Linux Primer
 Getting Started
 ---------------
 
-There are many tutorials on the web, just Google around and you will find them. A decent online tutorial is available for example at http://www.linux.org/lessons/beginner/toc.html; one can also find books on Linux in a bookstore, for those who prefer a hard copy. Linux is derived from Unix, and many of its commands are identical with, or very similar to, older Unix commands. Since Apple's Mac OS X is also derived from a version of Unix (BSD Unix), many of these commands are the same as on a Mac. 
+.. _Linux.org: http://www.linux.org/lessons/beginner/toc.html
+
+There are many tutorials on the web, just Google around and you will find them.
+A decent online tutorial is available for example at `Linux.org`_ one can also
+find books on Linux in a bookstore, for those who prefer a hard copy. Linux is
+derived from Unix, and many of its commands are identical with, or very similar
+to, older Unix commands. Since Apple's Mac OS X is also derived from a version
+of Unix (BSD Unix), many of these commands are the same as on a Mac. 
 
 Essential Commands
 ------------------
 
-Typically one interacts with a Unix/Linux system using a Command Line Interface (CLI), also known as a Terminal or a Shell. Unless one is using a Desktop Manager on a Linux system, running programs (commands) is by typing on the command line. Some of the more common commands that just about everyone uses
+Typically one interacts with a Unix/Linux system using a Command Line Interface
+(CLI), also known as a Terminal or a Shell. Unless one is using a Desktop
+Manager on a Linux system, running programs (commands) is by typing on the
+command line. Some of the more common commands that just about everyone uses
 are listed below:
 
 - ``pwd`` - "print working directory" prints the name of the current folder
@@ -49,14 +59,38 @@ are listed below:
 - ``kill <number>`` - kill a process number (you have to own the process)
 - ``finger <name>`` - show stats for the user <name>; with no <name> finger shows stats for all current users
 
-Note that by default you are positioned in your home folder after signing in. The file system is a tree with root at /, so to view the entire file system start by typing cd followed by ls and so forth. Pathnames are separated by forward slashes, so for example a file named whosis in your home folder /home/myuserid has pathname /home/myuserid/whosis. You can always refer to files by their fully qualified pathnames, but lacking the full pathname the system will look for the file in the current folder. Note that CTRL-C often cancels the current process, and CTRL-D often serves as an End of File marker. All of the above merely scratches the surface; see external documentation for further particulars and advice.
+Note that by default you are positioned in your home folder after signing in.
+The file system is a tree with root at /, so to view the entire file system
+start by typing cd followed by ls and so forth. Pathnames are separated by
+forward slashes, so for example a file named whosis in your home folder
+/home/myuserid has pathname /home/myuserid/whosis. You can always refer to
+files by their fully qualified pathnames, but lacking the full pathname the
+system will look for the file in the current folder. Note that CTRL-C often
+cancels the current process, and CTRL-D often serves as an End of File marker.
+All of the above merely scratches the surface; see external documentation for
+further particulars and advice.
 
 Why learn Linux?
 ----------------
 
-Because Unix and its offshoots remains one of the most important operating systems for servers, and many networking concepts are rooted in Unix for historical reasons. Because Unix/Linux systems are efficient, fast, and highly stable. Because Unix/Linux is powerful: check out wildcards, regular expressions, pipes, redirecting input and output, shell scripts, and cron jobs for starters. There are some very cool ideas here for the cognoscenti that just don't in the Windows world (or are unwieldy when transplanted there). Linux is open source software.
+Because Unix and its offshoots remains one of the most important operating
+systems for servers, and many networking concepts are rooted in Unix for
+historical reasons. Because Unix/Linux systems are efficient, fast, and highly
+stable. Because Unix/Linux is powerful: check out wildcards, regular
+expressions, pipes, redirecting input and output, shell scripts, and cron jobs
+for starters. There are some very cool ideas here for the cognoscenti that just
+don't in the Windows world (or are unwieldy when transplanted there). Linux is
+open source software.
 
 Trying Linux
 ------------
 
-For those who want to try it out on your personal laptop or desktop, find a decent Linux distribution such as Ubuntu (see ubuntulinux.org), download and burn the installation CD for your hardware, and boot from the CD. This will give you a working version of Linux running from the CD (slow) that can be played with. You can also choose to install Linux on your hard drive next to the existing OS (a dual boot approach) so that you can choose the OS at boot time, or choose to install Linux in place of your existing OS.
+.. _Ubuntu: http://www.ubuntu.com/
+
+For those who want to try it out on your personal laptop or desktop, find a
+decent Linux distribution such as `Ubuntu`_, download and burn the installation
+CD for your hardware, and boot from the CD. This will give you a working
+version of Linux running from the CD (slow) that can be played with. You can
+also choose to install Linux on your hard drive next to the existing OS (a dual
+boot approach) so that you can choose the OS at boot time, or choose to install
+Linux in place of your existing OS.
