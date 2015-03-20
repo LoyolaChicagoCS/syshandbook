@@ -53,10 +53,10 @@ center.
 GPGPU Server
 ------------
 
-Our new GPGPU-Server was set up at our ETL. It is SuperServer
-7046GT-TRF-TC4 with 2 x Intel Xeon Quad-Core (16 logical processors),
-96GB RAM, 4 x NVIDIA® Tesla C2075 GPUs. `Getting Started
-Guide <../../how-to/gpgpu-server/index.html>`_` </>`_
+Our new GPGPU Server was set up at our ETL. It is SuperServer 7046GT-TRF-TC4
+with 2 x Intel Xeon Quad-Core (16 logical processors), 96GB RAM, 4 x NVIDIA®
+Tesla C2075 GPUs. Please read our :doc:`gpgpu-server` guide on how to get
+started.
 
 .. index::
    single: Emerging Technologies Laboratory
@@ -64,12 +64,13 @@ Guide <../../how-to/gpgpu-server/index.html>`_` </>`_
 Emerging Technologies Laboratory
 --------------------------------
 
-The `ETL <http://www.etl.luc.edu>`_ is a growing presence for
-experimental computer science and engineering projects. This laboratory
-supports many experimental computing needs and is a place where students
-can explore ideas not covered directly in any particular class.
-Virtualization, embedded systems, green computing, and mobile
-development take place here.
+.. _ETL: http://www.etl.luc.edu
+
+The `ETL`_ is a growing presence for experimental computer science and
+engineering projects. This laboratory supports many experimental computing
+needs and is a place where students can explore ideas not covered directly in
+any particular class.  Virtualization, embedded systems, green computing, and
+mobile development take place here.
 
 .. index::
    single: wireless
@@ -80,4 +81,36 @@ Wireless
 The entire department (faculty offices, computer labs, emerging
 technologies lab, and halls) are covered by 802.11g Wireless LAN.
 
+Research Data Center
+--------------------
 
+Loyola University Chicago’s Research Data Center (RDC) is a 1,000-square-foot
+facility dedicated to support research and funded grants projects, provides a
+secure home for the computational clusters and related equipment used by our
+research community.
+
+The RDC (opened in 2010) delivers a high availability computing environment for
+research projects. This facility is equipped with power protection, including
+an uninterruptible power supply and a back-up generator. Multiple computer room
+air conditioner (CRAC) units provide redundant cooling for the space, and a
+structured cabling design allows for high-speed network connectivity. In
+addition to fire protection, additional safety and security elements for the
+RDC include keycard access, camera surveillance, and environmental monitoring.
+
+Sized to accommodate moderate growth, several research initiatives are
+currently taking advan- tage of the space, which at present houses three
+research clusters and over 100 nodes. Additionally, collaborative research
+efforts with other participating institutions and/or organizations have full
+access and connectivity to Internet2 via the Metropolitan Research & Education
+Network (MREN) to accommodate high bandwidth applications, data transmissions,
+and computational require- ments.
+
+A steering committee, made up of senior administrators, faculty, and ITS
+professionals, is re- sponsible for reviewing, evaluating, and recommending
+strategies, plans, and policies governing the use of the RDC resources.
+Loyola’s RDC is managed by Information Technology Services (ITS) in partnership
+with the university’s Facilities Department.
+
+Drs. Thiruvathukal, Läufer, and Putonti have a general-purpose 80-node
+computing cluster that runs a mix of Windows HPC Server and the ROCKS
+clustering software.

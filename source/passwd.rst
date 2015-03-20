@@ -1,7 +1,3 @@
-
-`Department Services <../../../index.html>`_ > `Academic
-Alliances/Programs <../../index.html>`_ > `FAQ <../index.html>`_ >
-
 passwd
 ~~~~~~
 
