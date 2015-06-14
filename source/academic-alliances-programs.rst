@@ -50,9 +50,14 @@ Then install Windows and other Windows applications as usual.
 VMware Academic Program (VMAP)
 ------------------------------
 
-We are also members of the VMware Academic Program (VMAP), which gives you
-access to VMware Workstation and other virtualization products. This can be
-helpful for those who want to run Linux but don't want to replace their Windows
-or OS X setup.
+The Computer Science Department is a member of the VMware Academic Program (VMAP).
 
-- Download from http://bit.ly/vmap-loyola-chicago-cs.
+VMware provides VMware Workstation and other virtualization products, which are
+helpful for users who may want to run Windows, Linux, and other operating systems
+on their Windows, Mac OS X, or Linux computers. 
+
+- Mac users should download VMware Fusion.
+
+- Windows or Linux users should download VMware Workstation.
+
+If you already know your login info, visit http://bit.ly/vmap-loyola-chicago-cs.
