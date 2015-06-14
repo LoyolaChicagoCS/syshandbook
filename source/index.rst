@@ -17,6 +17,7 @@ See :doc:`download` for information about other formats.
    department-services
    how-to
    its-services
+   cloud-services
    download
 
 Index and search
