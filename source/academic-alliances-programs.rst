@@ -61,3 +61,18 @@ on their Windows, Mac OS X, or Linux computers.
 - Windows or Linux users should download VMware Workstation.
 
 If you already know your login info, visit http://bit.ly/vmap-loyola-chicago-cs.
+
+.. index::
+   pair: academic alliances; Apple
+   pair: academic alliances; iOS
+   pair: academic alliances; OSX
+
+Apple Developer Program
+-------------------------------
+
+The Computer Science Department is a member of the Apple Developer Progarm.
+
+Information can be found at https://developer.apple.com/programs/ios/university/gettingstarted/.
+
+This program requires a bit of special handling, so please contact the lab manager at :doc:`people` 
+to be enrolled.
