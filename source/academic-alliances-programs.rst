@@ -17,31 +17,30 @@ Microsoft Developer Network (MSDN AA)
 
 The Computer Science Department is a member of the MSDN Academic Alliance.
 
-With this membership, any student who takes a computer science course will have
-an account to download the latest development tools, operating systems, server
-software, documentation, and technical references at his/her fingertips for
-free.
+If you already know your login info, visit http://bit.ly/msdn-loyola-chicago-cs.
 
-- Username and Password: Your username is your Loyola email
-  address. The email address must be entered in the form of
-  xyz@luc.edu 
+With this membership, any student who takes a computer science course will
+have an account to download the latest development tools, operating systems,
+server software, documentation, and technical references at his/her fingertips
+for free.
 
-- Go to this `link <http://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?ws=afe1b6ef-7d9b-e011-969d-0030487d8897&vsro=8/>`_.
-  Click Sign In button on the top right. Click the button in "forgot your
-  username or password?" section for a reminder. Check your Loyola email 
+If you need to retrieve your username and password, try this:
+
+- Username and Password: Your username is your Loyola email address. The
+  email address must be entered in the form of *xyz@luc.edu*.
+
+- Click the *Sign In* button on the top right. Click the button in *forgot your
+  username or password?* section for a reminder. Check your Loyola email 
   to get your password.
 
-.. todo:: 
-   Copy some other information from Miao's pages.
+Please note that the MSDNAA *excludes* Microsoft Office.
+All Loyola University Chicago students have access to Microsoft Office 365.
+See http://www.luc.edu/its/exchange/about_office_365.shtml for details.
+(This does not cover faculty and staff, who need to get their own 
+subscription.)
 
-Please note that the MSDNAA *excludes* Microsoft Office. We encourage students
-who need Microsoft Office to purchase the Home and Student Edition or consider
-using free/open source software such as LibreOffice.
-
-The ImgBurn utility can create a CD/DVD on Windowsfrom an ISO image file.
-
-If you have a MAC, you can download VMware and install it on Mac, then, install
-Windows and other Windows applications.
+If you have a Mac running OS X, you can download VMware (see below) and install it.
+Then install Windows and other Windows applications as usual.
 
 .. index::
    pair: academic alliances; VMware
