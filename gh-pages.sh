@@ -2,7 +2,8 @@
 
 git checkout gh-pages
 rm -rf build
-git checkout master
+git checkout master source Makefile build-handbook.sh
+rsync-syshandbook.sh
 git reset HEAD
 ./build-handbook.sh
 mv -fv build/html/* ./
