@@ -4,7 +4,7 @@ git checkout gh-pages
 rm -rf build
 git checkout master
 git reset HEAD
-make html
+./build-handbook.sh
 mv -fv build/html/* ./
 mkdir -p download
 mv -fv build/latex/*.pdf ./download/
