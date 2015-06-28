@@ -1,13 +1,10 @@
 language: python
 python:
-  - "2.7"
   - "3.4"
-
-# This build depends on Sphinx (a Python tool), which depends on an essential TeXLive setup.
 install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq help2man texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texinfo
   - pip install sphinx
   - pip install sphinx_bootstrap_theme
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq help2man python-sphinx texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texinfo
 script:
-  - sh build-handbook.sh
+  - ./build-handbook.sh  
