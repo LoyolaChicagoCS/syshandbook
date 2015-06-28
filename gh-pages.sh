@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git config --global user.email "gkt@cs.luc.edu"
+git config --global user.name "Travis CI"
 git remote add deploy "https://$GH_TOKEN@github.com/LoyolaChicagoCS/syshandbook.git"
 git fetch deploy
 git reset deploy/gh-pages
