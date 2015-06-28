@@ -19,5 +19,5 @@ git add -A
 git remote -v
 echo "Pushing to deploy HEAD:gh-pages"
 git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
-echo "Done
+echo "Done"
 
