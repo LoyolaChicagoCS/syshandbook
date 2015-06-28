@@ -2,7 +2,7 @@
 
 git config --global user.email "gkt@cs.luc.edu"
 git config --global user.name "George K. Thiruvathukal"
-git remote add deploy "https://$GH_TOKEN@github.com/$GH_REPO"
+git remote add deploy "https://$GH_TOKEN@github.com/LoyolaChicagoCS/syshandbook.git"
 git fetch deploy
 git reset deploy/gh-pages
 rm -rf build
