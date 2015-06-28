@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git config user.name "George K. Thiruvathukal (Travis)"
-git config user.email "gkt@cs.luc.edu"
 git remote add deploy "https://$GH_TOKEN@github.com/LoyolaChicagoCS/syshandbook.git"
 git fetch deploy
 git reset deploy/gh-pages
