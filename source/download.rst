@@ -2,7 +2,7 @@ Downloading
 ===========
 
 .. _GitHub: https://github.com/LoyolaChicagoCS/syshandbook
-.. _Travis: https://travis-ci/LoyolaChicagoCS/syshandbook
+.. _Travis: https://travis-ci.org/LoyolaChicagoCS/syshandbook
 .. _PDF: http://loyolachicagocs.github.io/syshandbook/download/SystemsHandbook.pdf
 .. _ePub: http://loyolachicagocs.github.io/syshandbook/download/SystemsHandbook.epub
 
