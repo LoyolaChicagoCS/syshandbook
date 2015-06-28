@@ -6,6 +6,5 @@ Status
 About
 ==================
 
-This is the Systems Handbook, hosted at http://syshandbook.cs.luc.edu.
-
+This is the Systems Handbook, hosted at http://loyolachicagocs.github.io/syshandbook.
 
