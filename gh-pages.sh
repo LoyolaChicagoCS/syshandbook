@@ -16,5 +16,8 @@ mv -fv build/epub/*.epub ./download/
 # rm -rf build
 touch .nojekyll
 git add -A
-git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push -q deploy HEAD:gh-pages
+git remote -v
+echo "Pushing to deploy HEAD:gh-pages"
+git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
+echo "Done
 
