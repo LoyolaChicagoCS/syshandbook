@@ -11,9 +11,9 @@ rm -rf build
 if [ $? -eq 0 ]
 then
   mkdir -p download
-  mv -fv build/html/* ./
-  mv -fv build/latex/*.pdf ./download/
-  mv -fv build/epub/*.epub ./download/
+  mv -f build/html/* ./
+  mv -f build/latex/*.pdf ./download/
+  mv -f build/epub/*.epub ./download/
   touch .nojekyll
   git add -A
   git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
