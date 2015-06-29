@@ -15,7 +15,7 @@ then
   mv -f build/latex/*.pdf ./download/
   mv -f build/epub/*.epub ./download/
   touch .nojekyll
-  git log master > COMMITS
+  git log master --pretty=short --abbrev-commit > COMMITS.txt
   git add -A
   git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
 else
