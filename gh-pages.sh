@@ -7,12 +7,17 @@ git fetch deploy
 git reset deploy/gh-pages
 git checkout master source Makefile build-handbook.sh
 rm -rf build
-./build-handbook.sh
-mkdir -p download
-mv -fv build/html/* ./
-mv -fv build/latex/*.pdf ./download/
-mv -fv build/epub/*.epub ./download/
-touch .nojekyll
-git add -A
-git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
+./build.sh
+if [ $? -eq 0 ]
+then
+  mkdir -p download
+  mv -fv build/html/* ./
+  mv -fv build/latex/*.pdf ./download/
+  mv -fv build/epub/*.epub ./download/
+  touch .nojekyll
+  git add -A
+  git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push deploy HEAD:gh-pages
+else
+  echo "Sphinx build failed. gh-pages not altered."
+fi
 
