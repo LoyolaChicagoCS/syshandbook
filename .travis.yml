@@ -18,4 +18,4 @@ script:
 - GH_USER=LoyolaChicagoCS GH_REPO=syshandbook "./gh-pages.sh"
 env:
   global:
-    secure: "BB4l1BHrhfVybHxOdX2ivBb87p1DfrpsyfLTv16OL63qOKIBb98eoiGKK/VmpBSOVDJHHtaMQhROARDTHLnWTslvQcz/y/kXMRYQUc/vRdVuJUWra78bEQ1owq1Ij+Z7l/Fd9k33DqVdt06QYOI8X3FTqqHTbpoKMrv2mFs5O9M="
+    secure: "EnWqNB3O/BwLxRQ6oXWuhGtp924xsnvTvE+rLvedgjA4Jaf/SxhRo8t99NBmjJsFDXWb0fUTL827cFZNA9fh2u/OXxjVUimpVJAyYXTo6FbuRWHhml1HCUxAtVWFpdjsCuTaeQxvgyjAqTYnw8cpFsxigJpDoEssW+sKOCWrtX0="
