@@ -42,8 +42,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Systems Handbook'
-copyright = u'2012, George K. Thiruvathukal and Miao Ye'
+project = u'LUC Systems Handbook'
+copyright = u'2012-2019, George K. Thiruvathukal and Miao Ye'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -120,6 +120,12 @@ html_title= "%(project)s v%(release)s" % vars()
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_context = {
+            'css_files': [
+                    '_static/theme_overrides.css',  # override wide tables in RTD theme
+            ],
+}
+
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 #html_last_updated_fmt = '%b %d, %Y'
@@ -181,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SystemsHandbook.tex', u'Systems Handbook',
+  ('index', 'SystemsHandbook.tex', u'LUC Systems Handbook',
    u'George K. Thiruvathukal and Miao Ye', 'manual'),
 ]
 
@@ -211,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'systemshandbookloyolauniversitychicagocsdepartment', u'Systems Handbook',
+    ('index', 'systemshandbookloyolauniversitychicagocsdepartment', u'LUC Systems Handbook',
      [u'George K. Thiruvathukal and Miao Ye'], 1)
 ]
 
@@ -225,7 +231,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SystemsHandbook', u'Systems Handbook',
+  ('index', 'SystemsHandbook', u'LUC Systems Handbook',
    u'George K. Thiruvathukal and Miao Ye', 'SystemsHandbook', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -243,7 +249,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Systems Handbook'
+epub_title = u'LUC Systems Handbook'
 epub_author = u'George K. Thiruvathukal and Miao Ye'
 epub_publisher = u'George K. Thiruvathukal and Miao Ye'
 epub_copyright = u'2012, George K. Thiruvathukal and Miao Ye'

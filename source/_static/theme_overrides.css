@@ -10,4 +10,8 @@
    .wy-table-responsive {
       overflow: visible !important;
    }
+
+   .wy-side-nav-search, .wy-nav-top {
+	    background: #800000;
+   }
 }
