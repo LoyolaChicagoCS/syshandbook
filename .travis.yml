@@ -24,7 +24,7 @@ script:
 - travis-sphinx build -s source
 - make latexpdf
 after_success:
-- travis-sphinx deploy --cname syshandbook.cs.luc.edu
+- travis-sphinx deploy --cname systemshandbook.cs.luc.edu
 env:
   global:
     secure: "EnWqNB3O/BwLxRQ6oXWuhGtp924xsnvTvE+rLvedgjA4Jaf/SxhRo8t99NBmjJsFDXWb0fUTL827cFZNA9fh2u/OXxjVUimpVJAyYXTo6FbuRWHhml1HCUxAtVWFpdjsCuTaeQxvgyjAqTYnw8cpFsxigJpDoEssW+sKOCWrtX0="
