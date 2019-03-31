@@ -12,7 +12,6 @@ See :doc:`download` for information about other formats.
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
    department-services
    how-to
