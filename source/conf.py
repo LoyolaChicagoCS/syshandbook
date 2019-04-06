@@ -42,7 +42,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'LUC Systems Handbook'
+project = u'Loyola University Chicago CS - Systems Handbook'
 copyright = u'2012-2019, George K. Thiruvathukal and Miao Ye'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -187,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SystemsHandbook.tex', u'LUC Systems Handbook',
+  ('index', 'SystemsHandbook.tex', u'Loyola University Chicago CS - Systems Handbook',
    u'George K. Thiruvathukal and Miao Ye', 'manual'),
 ]
 
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'systemshandbookloyolauniversitychicagocsdepartment', u'LUC Systems Handbook',
+    ('index', 'systemshandbookloyolauniversitychicagocsdepartment', u'Loyola University Chicago CS - Systems Handbook',
      [u'George K. Thiruvathukal and Miao Ye'], 1)
 ]
 
@@ -231,7 +231,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SystemsHandbook', u'LUC Systems Handbook',
+  ('index', 'SystemsHandbook', u'Loyola University Chicago CS - Systems Handbook',
    u'George K. Thiruvathukal and Miao Ye', 'SystemsHandbook', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -249,7 +249,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'LUC Systems Handbook'
+epub_title = u'Loyola University Chicago CS - Systems Handbook'
 epub_author = u'George K. Thiruvathukal and Miao Ye'
 epub_publisher = u'George K. Thiruvathukal and Miao Ye'
 epub_copyright = u'2012, George K. Thiruvathukal and Miao Ye'
