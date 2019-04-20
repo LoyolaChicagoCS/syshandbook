@@ -287,3 +287,10 @@ epub_copyright = u'2012, George K. Thiruvathukal and Miao Ye'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+rst_epilog = """
+.. |pdf-version| replace:: `printable PDF  <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/SystemsHandbook.pdf>`__
+
+.. |epub-version| replace:: `eBook <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/SystemsHandbook.epub>`__
+
+""" % vars()

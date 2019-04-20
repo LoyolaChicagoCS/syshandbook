@@ -1,14 +1,13 @@
 Systems Handbook
 ================
 
-Welcome to the Computer Science Department at Loyola University
-Chicago.
+Welcome to the Systems Handbook for the Computer Science Department at Loyola University Chicago.
 
 This guide is aimed at helping you understand the services we provide
 in the department and those offered by university IT (ITS) that might
 also be helpful to your work in CS and related majors.
 
-See :doc:`download` for information about other formats.
+This site is also available in |pdf-version| and |epub-version| formats.
 
 .. toctree::
    :maxdepth: 2
@@ -19,8 +18,6 @@ See :doc:`download` for information about other formats.
    cloud-services
    download
 
-Index and search
-================
+Topics
+   :ref:`genindex`
 
-* :ref:`genindex`
-* :ref:`search`
