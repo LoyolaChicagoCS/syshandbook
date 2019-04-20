@@ -188,7 +188,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'LoyolaUniversityChicagoCS-SystemsHandbook.tex', u'Loyola University Chicago CS - Systems Handbook',
-   u'George K. Thiruvathukal and Miao Ye', 'manual'),
+   u'Loyola University Chicago - Computer Science Department', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -218,7 +218,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'systemshandbookloyolauniversitychicagocsdepartment', u'Loyola University Chicago CS - Systems Handbook',
-     [u'George K. Thiruvathukal and Miao Ye'], 1)
+     [u'Loyola University Chicago - Computer Science Department'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -232,7 +232,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'SystemsHandbook', u'Loyola University Chicago CS - Systems Handbook',
-   u'George K. Thiruvathukal and Miao Ye', 'SystemsHandbook', 'One line description of project.',
+   u'Loyola University Chicago - Computer Science Department', 'SystemsHandbook', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -250,9 +250,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'Loyola University Chicago CS - Systems Handbook'
-epub_author = u'George K. Thiruvathukal and Miao Ye'
-epub_publisher = u'George K. Thiruvathukal and Miao Ye'
-epub_copyright = u'2012, George K. Thiruvathukal and Miao Ye'
+epub_author = u'Loyola University Chicago - Computer Science Department'
+epub_publisher = u'Loyola University Chicago - Computer Science Department'
+epub_copyright = u'2012, Loyola University Chicago - Computer Science Department'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
