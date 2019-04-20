@@ -43,7 +43,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Loyola University Chicago CS - Systems Handbook'
-copyright = u'2012-2019, George K. Thiruvathukal and Miao Ye'
+copyright = u'2012-Present, Loyola University Chicago - Computer Science Department'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
