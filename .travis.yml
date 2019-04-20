@@ -23,6 +23,7 @@ script:
 - pip install -r requirements.txt
 - BOOK_VERSION=$(./get-current-version.sh) travis-sphinx build -n -s source
 - BOOK_VERSION=$(./get-current-version.sh) make latexpdf
+- BOOK_VERSION=$(./get-current-version.sh) make epub
 after_success:
 - travis-sphinx deploy --cname systemshandbook.cs.luc.edu
 deploy:
@@ -31,6 +32,7 @@ deploy:
   file_glob: true
   file:
     - ./**/SystemsHandbook.pdf
+    - ./**/SystemsHandbook.epub
   skip_cleanup: true
   on:
     repo: LoyolaChicagoCS/syshandbook

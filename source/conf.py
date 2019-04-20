@@ -187,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SystemsHandbook.tex', u'Loyola University Chicago CS - Systems Handbook',
+  ('index', 'LoyolaUniversityChicagoCS-SystemsHandbook.tex', u'Loyola University Chicago CS - Systems Handbook',
    u'George K. Thiruvathukal and Miao Ye', 'manual'),
 ]
 
@@ -289,8 +289,8 @@ epub_copyright = u'2012, George K. Thiruvathukal and Miao Ye'
 #epub_tocdup = True
 
 rst_epilog = """
-.. |pdf-version| replace:: `printable PDF  <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/SystemsHandbook.pdf>`__
+.. |pdf-version| replace:: `printable PDF  <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/LoyolaUniversityChicagoCS-SystemsHandbook.pdf>`__
 
-.. |epub-version| replace:: `eBook <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/SystemsHandbook.epub>`__
+.. |epub-version| replace:: `eBook <https://github.com/LoyolaChicagoCS/syshandbook/releases/download/%(version)s/LoyolaUniversityChicagoCS-SystemsHandbook.epub>`__
 
 """ % vars()
