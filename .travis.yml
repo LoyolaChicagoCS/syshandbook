@@ -31,8 +31,8 @@ deploy:
   api_key: $GH_TOKEN
   file_glob: true
   file:
-    - ./**/SystemsHandbook.pdf
-    - ./**/SystemsHandbook.epub
+    - ./**/LoyolaUniversityChicagoCS-SystemsHandbook.pdf
+    - ./**/LoyolaUniversityChicagoCS-SystemsHandbook.epub
   skip_cleanup: true
   on:
     repo: LoyolaChicagoCS/syshandbook
