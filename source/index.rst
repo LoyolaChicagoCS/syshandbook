@@ -18,6 +18,13 @@ This site is also available in |pdf-version| and |epub-version| formats.
    cloud-services
    download
 
+Reporting Issues
+----------------
+
+* https://github.com/LoyolaChicagoCS/WebIssues/issues
+
 Topics
-   :ref:`genindex`
+-------
+
+* :ref:`genindex`
 
