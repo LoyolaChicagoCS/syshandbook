@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Virtualization &mdash; Loyola University Chicago CS - Systems Handbook vv1.0.6</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="User Accounts" href="user-accounts.html" />
+    <link rel="prev" title="People" href="people.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Loyola University Chicago CS - Systems Handbook
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v1.0.6
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="department-services.html">Department Services</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="academic-alliances-programs.html">Academic Alliances/Programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-management-and-hosting.html">Content Management and Hosting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emergency-contacts.html">Emergency Contacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="facilities.html">Facilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="google-apps-cs.html">Google Apps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="people.html">People</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Virtualization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-accounts.html">User Accounts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="how-to.html">How-To</a></li>
+<li class="toctree-l1"><a class="reference internal" href="its-services.html">University IT Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cloud-services.html">Cloud Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download.html">Downloading</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Loyola University Chicago CS - Systems Handbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="department-services.html">Department Services</a> &raquo;</li>
+        
+      <li>Virtualization</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/virtualization.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="virtualization">
+<h1>Virtualization<a class="headerlink" href="#virtualization" title="Permalink to this headline">¶</a></h1>
+<p>We are now able to host Xen and Windows Hyper-V virtual servers in the
+department. We can host these with a dedicated public IP address (justification
+is required to obtain one) or private IP addresses which would be visible when
+you connect via the Loyola VPN.  Given our present resource limitations, we can
+only provide virtual machines on a limited basis, primarily for faculty and
+student research/outreach projects. Please send your requests to the vm alias
+(see <a class="reference internal" href="getting-help.html"><span class="doc">Getting Help</span></a>) and make sure you include the following information:</p>
+<ul class="simple">
+<li><strong>name</strong>: your full name</li>
+<li><strong>university e-mail address</strong>: we will not give virtual machines to
+anyone who is not part of the Loyola community, although we will
+allow same to be used by outsiders, provided there is a Loyola
+contact.</li>
+<li><strong>alternate e-mail address</strong>: where we can find you in case you
+decide not to read your Loyola e-mail (or you’re not getting your
+messages!)</li>
+<li><strong>duration</strong>: amount of time in months for your project, or permanent
+(in general, permanent machines will be given only with highly sound
+justification.</li>
+<li><strong>RAM</strong>: required RAM in 256MB increments; large allocations are
+rarely given. We’ll prioritize requests that are smaller than 512MB.</li>
+<li><strong>disk space</strong>: required storage in 10GB increments</li>
+<li><strong>desired OS</strong>: We recommend Ubuntu server edition but can support
+many others. At present, we do not support any OS that requires a
+license key or activation (except Windows on our new Hyper-V racks).</li>
+<li><strong>desired hostname</strong>: may be requested in one cs, math, etl, cslabs
+(a private zone), all of which are subdomains of luc.edu. For
+example, if you want the hostname gkt in the domain etl.luc.edu, you
+would ask for gkt.etl.luc.edu</li>
+<li><strong>public or private static IP</strong>: You must say public or private. We
+will generally be asking you (especially if you’re a student) to
+start with a private IP address. This in most cases will require you
+to choose the domain cslabs.luc.edu, which only resolves within
+Loyola proper.</li>
+<li><strong>type of virtual machine</strong>: Xen, VMware, Hyper-V program. You would
+only need VMware if you want to host a Windows VM but we presently
+have no plans to support Windows, per our emphasis on freely
+available OS technology without activation requirements.</li>
+<li><strong>number of CPUs</strong>: we are only able to support 1 for most requests
+at this time.</li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="user-accounts.html" class="btn btn-neutral float-right" title="User Accounts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="people.html" class="btn btn-neutral float-left" title="People" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2012-Present, Loyola University Chicago - Computer Science Department
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-5482792-29', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>
